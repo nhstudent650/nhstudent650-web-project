@@ -62,4 +62,15 @@ table th, table td {
 img {
     display: block;
     margin: 20px 0;
+    max-width: 400px;
+    height: auto;
+}
+
+.tip {
+    background-color: #e8f3ff;
+    border-left: 4px solid #1e88e5;
+    padding: 12px 16px;
+    margin-top: 25px;
+    font-style: italic;
+    border-radius: 4px;
 }
