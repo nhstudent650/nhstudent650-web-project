@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project 3 – PC Building (Styled Version)</title>
+    <title>Project 4 – PC Building (JavaScript & Responsive Design)</title>
     <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
@@ -11,9 +11,9 @@
     <header>
         <nav>
             <a href="../index.html">Home</a> |
-            <a href="project2.html">Project 2</a> |
-            <a href="project3.html">Project 3</a> |
-            <a href="../Project4/project4.html">Project 4</a>
+            <a href="../html/project2.html">Project 2</a> |
+            <a href="../html/project3.html">Project 3</a> |
+            <a href="project4.html">Project 4</a>
         </nav>
     </header>
 
@@ -43,20 +43,37 @@
             It’s a blend of creativity, problem‑solving, and technical skill.
         </p>
 
-        <img src="../images/tai-bui-Q-xGz9NOVOE-unsplash.jpg" 
-             alt="Close-up of a computer motherboard" 
-             width="400">
+        <!-- ⭐ FLEXBOX ROW: TAI BUI + MIKHAIL NILOV -->
+        <div class="flex-images" style="justify-content: flex-start;">
 
-        <p>
-            Photo by 
-            <a href="https://unsplash.com/@agforl24?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">
-                Tai Bui
-            </a> 
-            on 
-            <a href="https://unsplash.com/photos/a-close-up-of-a-computer-motherboard-in-a-dark-room-Q-xGz9NOVOE?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">
-                Unsplash
-            </a>
-        </p>
+            <div class="image-box">
+                <img src="../images/tai-bui-Q-xGz9NOVOE-unsplash.jpg" 
+                     alt="Close-up of a computer motherboard" 
+                     width="400">
+
+                <p>
+                    Photo by 
+                    <a href="https://unsplash.com/@agforl24">Tai Bui</a> 
+                    on 
+                    <a href="https://unsplash.com/photos/Q-xGz9NOVOE">Unsplash</a>
+                </p>
+            </div>
+
+            <div class="image-box">
+                <img src="../images/pexels-mikhail-nilov-9242895.jpg" 
+                     alt="Technician working on PC components"
+                     width="400">
+
+                <p>
+                    Photo by 
+                    <a href="https://www.pexels.com/@mikhail-nilov/">Mikhail Nilov</a> 
+                    on 
+                    <a href="https://www.pexels.com/photo/man-fixing-a-computer-9242895/">Pexels</a>
+                </p>
+            </div>
+
+        </div>
+        <!-- ⭐ END FLEXBOX ROW -->
 
         <h2>Top Components That Matter Most in a Custom PC</h2>
         <ul>
@@ -107,25 +124,45 @@
             </tr>
         </table>
 
-        <img src="../images/pexels-stasknop-18042761.jpg" alt="Close-up of a CPU socket on a motherboard">
+        <!-- ⭐ STAS KNOP IMAGE — directly under the table, left-aligned -->
+        <div class="image-box motherboard-img">
+            <img src="../images/pexels-stasknop-18042761.jpg" 
+                 alt="Close-up of a CPU socket on a motherboard"
+                 width="400">
 
-        <p class="img-credit">
-            Photo by <a href="https://www.pexels.com/@stasknop/">Stas Knop</a> on 
-            <a href="https://www.pexels.com/photo/close-up-of-a-cpu-socket-on-a-motherboard-18042761/">Pexels</a>
-        </p>
-
+            <p class="img-credit">
+                Photo by <a href="https://www.pexels.com/@stasknop/">Stas Knop</a> on 
+                <a href="https://www.pexels.com/photo/close-up-of-a-cpu-socket-on-a-motherboard-18042761/">Pexels</a>
+            </p>
+        </div>
 
         <blockquote class="tip">
             Pro Tip: Always check CPU and motherboard socket compatibility before buying parts.
         </blockquote>
-
 
         <p>
             For more PC building tips, visit 
             <a href="https://www.tomshardware.com">Tom's Hardware</a>.
         </p>
 
+        <!-- ⭐ STEP 8: JavaScript Area -->
+        <section id="dynamic-area">
+
+            <form id="greetForm">
+                <label for="username">Enter your name:</label><br>
+                <input type="text" id="username" name="username" required><br><br>
+
+                <button type="submit">Say Hello</button>
+            </form>
+
+            <p id="greetingMessage" style="font-weight: bold; margin-top: 15px;"></p>
+
+        </section>
+
     </main>
+
+    <!-- ⭐ Link to JavaScript file -->
+    <script src="../javascript/script.js"></script>
 
 </body>
 </html>
