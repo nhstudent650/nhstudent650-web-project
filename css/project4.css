@@ -1,0 +1,49 @@
+.flex-images {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-start;
+}
+
+.flex-images img {
+    width: 100%;
+    height: auto;
+}
+
+.motherboard-img img {
+    width: 100%;
+    height: auto;
+}
+
+header nav {
+    background-color: #222;
+    padding: 10px;
+    text-align: center;
+}
+
+header nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+@media (max-width: 600px) {
+
+    .flex-images {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .flex-images img,
+    .motherboard-img img {
+        width: 100%;
+        height: auto;
+    }
+
+    table {
+        font-size: 0.9rem;
+    }
+
+    body {
+        padding: 10px;
+    }
+}
