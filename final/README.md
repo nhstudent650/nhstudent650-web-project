@@ -1,13 +1,13 @@
 # Final Project: GreenTech Solutions
 A responsive multi-page website promoting eco-friendly technology solutions.
 
-Project Description:
+**Project Description:**
 
 GreenTech Solutions is a fictional company focused on sustainable, eco‑friendly technology.
 This project demonstrates core front‑end development skills including semantic HTML structure,
 responsive CSS layout, Flexbox, grid usage, JavaScript form validation, multi-page site navigation, and accessibility considerations.
 
-This site includes five pages:
+**This site includes five pages:**
 
 Home
 About
@@ -15,9 +15,9 @@ Products
 Blog
 Contact
 
-Live Site:
+**Live Site:**
 
-URL goes here --------------------
+URL: https://nhstudent650.github.io/nhstudent650-web-project/final/index.html
 
 **FEATURES**
 
