@@ -1,5 +1,5 @@
 :root {
-    --green: #215824;
+    --green: #2e7d32;
     --light-green: #4caf50;
     --earth: #8d6e63;
     --light-earth: #a1887f;
@@ -75,7 +75,7 @@ header {
 
 .nav-links a:hover,
 .nav-links a.active {
-    background-color: var(--light-green);
+    background-color: #256628;
 }
 
 .hero-split {
